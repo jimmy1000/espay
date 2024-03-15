@@ -1,0 +1,251 @@
+---------------------------------------------------------------
+[ 2024-03-11T09:32:23+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/auth?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:23+08:00 ] 10.50.50.2 GET espay.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:24+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user` LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user` WHERE  `group_id` = 2 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_order` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT SUM(agent_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT SUM(upstream_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT SUM(agent_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT SUM(upstream_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.001097s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:24+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/auth?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ep_auth_rule` WHERE  `name` = 'user/auth' LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:24+08:00 ] 10.50.50.2 POST espay.com/admin.php/dashboard/chart
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000324s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_order` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT COALESCE(sum(`total_money`),0) as `total_amount`,count(id) as `total_orders`,FROM_UNIXTIME(createtime,'%Y-%m-%d') as day FROM `ep_order` WHERE  `createtime` BETWEEN 1709222400 AND 1710172799  AND `status` IN ('1','2') GROUP BY `day` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT count(id) as `total_orders`,FROM_UNIXTIME(createtime,'%Y-%m-%d') as day FROM `ep_order` WHERE  `createtime` BETWEEN 1709222400 AND 1710172799 GROUP BY `day` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_admin_log` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] INSERT INTO `ep_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '[]' , '/admin.php/dashboard/chart' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' , '10.50.50.2' , 1710120744) [ RunTime:0.002533s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:24+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/auth/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710120744329
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000319s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_auth` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user_auth` `user_auth` LEFT JOIN `ep_user` `user` ON `user_auth`.`user_id`=`user`.`id` ORDER BY `user_auth`.`id` DESC LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `user_auth`.`id`,`user_auth`.`user_id`,`user_auth`.`name`,`user_auth`.`identity`,`user_auth`.`industry`,`user_auth`.`website`,`user_auth`.`picList`,`user_auth`.`status`,`user_auth`.`add_time`,`user_auth`.`check_time`,`user_auth`.`check_msg`,user.id AS user__id,user.group_id AS user__group_id,user.agent_id AS user__agent_id,user.md5key AS user__md5key,user.merchant_id AS user__merchant_id,user.username AS user__username,user.nickname AS user__nickname,user.password AS user__password,user.paypassword AS user__paypassword,user.paysalt AS user__paysalt,user.salt AS user__salt,user.email AS user__email,user.mobile AS user__mobile,user.avatar AS user__avatar,user.level AS user__level,user.gender AS user__gender,user.birthday AS user__birthday,user.bio AS user__bio,user.withdrawal AS user__withdrawal,user.money AS user__money,user.score AS user__score,user.successions AS user__successions,user.maxsuccessions AS user__maxsuccessions,user.prevtime AS user__prevtime,user.logintime AS user__logintime,user.loginip AS user__loginip,user.loginfailure AS user__loginfailure,user.joinip AS user__joinip,user.jointime AS user__jointime,user.createtime AS user__createtime,user.updatetime AS user__updatetime,user.token AS user__token,user.status AS user__status,user.verification AS user__verification,user.googlesecret AS user__googlesecret,user.googlebind AS user__googlebind,user.mobilebind AS user__mobilebind,user.balancestyle AS user__balancestyle,user.balancetime AS user__balancetime,user.paylv AS user__paylv,user.ifagentmoney AS user__ifagentmoney,user.payrate_type AS user__payrate_type,user.payrate AS user__payrate,user.public_key AS user__public_key,user.req_url AS user__req_url,user.ifdaifuauto AS user__ifdaifuauto,user.daifuid AS user__daifuid,user.batchrepay AS user__batchrepay,user.ifapirepay AS user__ifapirepay FROM `ep_user_auth` `user_auth` LEFT JOIN `ep_user` `user` ON `user_auth`.`user_id`=`user`.`id` ORDER BY `user_auth`.`id` DESC LIMIT 0,10 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:29+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:29+08:00 ] 10.50.50.2 GET espay.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2024-03-11T09:32:29+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user` LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user` WHERE  `group_id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_order` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT SUM(agent_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT SUM(upstream_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT SUM(agent_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT SUM(upstream_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2024-03-11T13:20:35+08:00 ] 10.50.50.2 GET espay.com/admin.php/general/profile?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022156s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.032449s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.004774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.003223s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2024-03-11T13:20:36+08:00 ] 10.50.50.2 GET espay.com/admin.php/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1710134436002
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_admin_log` [ RunTime:0.014265s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2024-03-11T13:21:04+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2024-03-11T13:21:04+08:00 ] 10.50.50.2 GET espay.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2024-03-11T13:21:06+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.004387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user` LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user` WHERE  `group_id` = 2 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_order` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT SUM(agent_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT SUM(upstream_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710086400 AND 1710172800  AND `status` IN ('1','2') LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT SUM(agent_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT SUM(upstream_money) AS tp_sum FROM `ep_order` WHERE  `status` IN ('1','2') LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2024-03-11T13:21:06+08:00 ] 10.50.50.2 POST espay.com/admin.php/dashboard/chart
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_order` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT COALESCE(sum(`total_money`),0) as `total_amount`,count(id) as `total_orders`,FROM_UNIXTIME(createtime,'%Y-%m-%d') as day FROM `ep_order` WHERE  `createtime` BETWEEN 1709222400 AND 1710172799  AND `status` IN ('1','2') GROUP BY `day` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT count(id) as `total_orders`,FROM_UNIXTIME(createtime,'%Y-%m-%d') as day FROM `ep_order` WHERE  `createtime` BETWEEN 1709222400 AND 1710172799 GROUP BY `day` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_admin_log` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] INSERT INTO `ep_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '[]' , '/admin.php/dashboard/chart' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' , '10.50.50.2' , 1710134466) [ RunTime:0.009802s ]
+---------------------------------------------------------------
+[ 2024-03-11T14:40:39+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/type?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038369s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.006539s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ep_auth_rule` WHERE  `name` = 'api/type' LIMIT 1 [ RunTime:0.001685s ]
+---------------------------------------------------------------
+[ 2024-03-11T14:40:39+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/type/index?addtabs=1&sort=weight&order=ASC&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710139239109
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_type` [ RunTime:0.002431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_rule` [ RunTime:0.002035s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_api_type` `api_type` LEFT JOIN `ep_api_rule` `rule` ON `api_type`.`api_rule_id`=`rule`.`id` ORDER BY `api_type`.`weight` ASC LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT `api_type`.`id`,`api_type`.`name`,`api_type`.`code`,`api_type`.`api_rule_id`,`api_type`.`status`,`api_type`.`default`,`api_type`.`domain`,`api_type`.`createtime`,`api_type`.`weight`,rule.id AS rule__id,rule.name AS rule__name,rule.user_id AS rule__user_id,rule.api_type_id AS rule__api_type_id,rule.api_account_ids AS rule__api_account_ids,rule.type AS rule__type,rule.createtime AS rule__createtime,rule.updatetime AS rule__updatetime FROM `ep_api_type` `api_type` LEFT JOIN `ep_api_rule` `rule` ON `api_type`.`api_rule_id`=`rule`.`id` ORDER BY `api_type`.`weight` ASC LIMIT 0,10 [ RunTime:0.001067s ]
+---------------------------------------------------------------
+[ 2024-03-11T14:40:39+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ep_auth_rule` WHERE  `name` = 'api/upstream' LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2024-03-11T14:40:40+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710139239877
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_upstream` [ RunTime:0.002109s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_api_upstream` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_api_upstream` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[ 2024-03-11T14:40:42+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2024-03-11T16:15:51+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/rule?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047043s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.010549s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ep_auth_rule` WHERE  `name` = 'api/rule' LIMIT 1 [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2024-03-11T16:15:52+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/rule/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710144951266
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_type` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_rule` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_api_rule` `api_rule` INNER JOIN `ep_api_type` `apitype` ON `api_rule`.`api_type_id`=`apitype`.`id` ORDER BY `api_rule`.`id` DESC LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `api_rule`.`id`,`api_rule`.`name`,`api_rule`.`user_id`,`api_rule`.`api_type_id`,`api_rule`.`api_account_ids`,`api_rule`.`type`,`api_rule`.`createtime`,`api_rule`.`updatetime`,apitype.id AS apitype__id,apitype.name AS apitype__name,apitype.code AS apitype__code,apitype.api_rule_id AS apitype__api_rule_id,apitype.status AS apitype__status,apitype.default AS apitype__default,apitype.domain AS apitype__domain,apitype.createtime AS apitype__createtime,apitype.weight AS apitype__weight FROM `ep_api_rule` `api_rule` INNER JOIN `ep_api_type` `apitype` ON `api_rule`.`api_type_id`=`apitype`.`id` ORDER BY `api_rule`.`id` DESC LIMIT 0,10 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2024-03-11T16:15:54+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/type/index?addtabs=1&sort=weight&order=ASC&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710139239110
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_type` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_rule` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_api_type` `api_type` LEFT JOIN `ep_api_rule` `rule` ON `api_type`.`api_rule_id`=`rule`.`id` ORDER BY `api_type`.`weight` ASC LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `api_type`.`id`,`api_type`.`name`,`api_type`.`code`,`api_type`.`api_rule_id`,`api_type`.`status`,`api_type`.`default`,`api_type`.`domain`,`api_type`.`createtime`,`api_type`.`weight`,rule.id AS rule__id,rule.name AS rule__name,rule.user_id AS rule__user_id,rule.api_type_id AS rule__api_type_id,rule.api_account_ids AS rule__api_account_ids,rule.type AS rule__type,rule.createtime AS rule__createtime,rule.updatetime AS rule__updatetime FROM `ep_api_type` `api_type` LEFT JOIN `ep_api_rule` `rule` ON `api_type`.`api_rule_id`=`rule`.`id` ORDER BY `api_type`.`weight` ASC LIMIT 0,10 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2024-03-11T16:15:55+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/type/index?addtabs=1&sort=weight&order=ASC&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710139239111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001774s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_group_access` [ RunTime:0.004149s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ep_auth_group_access` `aga` LEFT JOIN `ep_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_auth_rule` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ep_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_type` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_rule` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_api_type` `api_type` LEFT JOIN `ep_api_rule` `rule` ON `api_type`.`api_rule_id`=`rule`.`id` ORDER BY `api_type`.`weight` ASC LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `api_type`.`id`,`api_type`.`name`,`api_type`.`code`,`api_type`.`api_rule_id`,`api_type`.`status`,`api_type`.`default`,`api_type`.`domain`,`api_type`.`createtime`,`api_type`.`weight`,rule.id AS rule__id,rule.name AS rule__name,rule.user_id AS rule__user_id,rule.api_type_id AS rule__api_type_id,rule.api_account_ids AS rule__api_account_ids,rule.type AS rule__type,rule.createtime AS rule__createtime,rule.updatetime AS rule__updatetime FROM `ep_api_type` `api_type` LEFT JOIN `ep_api_rule` `rule` ON `api_type`.`api_rule_id`=`rule`.`id` ORDER BY `api_type`.`weight` ASC LIMIT 0,10 [ RunTime:0.000332s ]

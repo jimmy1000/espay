@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2020-08-21T21:58:49+08:00 ] 39.188.214.46 POST wg.wfcgg.cn/admin.php/index/login?url=%2Fadmin.php
+[ error ] [1024]curl[http://api.geetest.com/validate.php] error[28:Connection timed out after 1001 milliseconds]
+---------------------------------------------------------------
+[ 2020-08-21T23:50:18+08:00 ] 39.188.214.46 POST wg.wfcgg.cn/admin.php/index/login?url=%2Fadmin.php%2Fdashboard%3Fref%3Daddtabs
+[ error ] [1024]curl[http://api.geetest.com/validate.php] error[28:Connection timed out after 1001 milliseconds]

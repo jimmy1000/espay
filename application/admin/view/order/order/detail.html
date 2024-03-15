@@ -1,0 +1,37 @@
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>内容</th>
+        <th>数据</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr><td>订单类型</td><td>{$order.style_text}</td></tr>
+        <tr><td>订单状态</td><td>{$order.status_text}</td></tr>
+        <tr><td>通知状态</td><td>{$order.notify_status_text}</td></tr>
+        <tr><td>发起时间</td><td>{:date('Y-m-d H:i:s',$order['createtime'])}</td></tr>
+        <tr><td>发起IP</td><td>{$order->req_ip}</td></tr>
+        <tr><td>支付时间</td><td>{:date('Y-m-d H:i:s',$order['paytime'])}</td></tr>
+        <tr><td>商户订单号</td><td>{$order.orderno}</td></tr>
+        <tr><td>系统订单号</td><td>{$order.sys_orderno}</td></tr>
+        <tr><td>上游订单号</td><td>{$order.up_orderno}</td></tr>
+        <tr><td>订单金额</td><td>{$order.total_money}</td></tr>
+        <tr><td>用户获得金额</td><td>{$order.have_money}</td></tr>
+        <tr><td>代理获得金额</td><td>{$order.agent_money}</td></tr>
+        <tr><td>订单费率</td><td>{$order.rate}%</td></tr>
+        <tr><td>接口费率</td><td>{$order.channel_rate}%</td></tr>
+        <tr><td>接口类型</td><td>{$order.apitype.name}</td></tr>
+        <tr><td>接口上游</td><td>{$order.upstream.name}</td></tr>
+        <tr><td>接口账户</td><td>{$order.account.name}</td></tr>
+        {if condition="$order.repair == '1'"}
+        <tr><td>补单时间</td><td>{:date('Y-m-d H:i:s',$order['repair_time'])}</td></tr>
+        <tr><td>补单会员编号</td><td>{$order.repair_admin_id}</td></tr>
+        {/if}
+    </tbody>
+</table>
+<div class="hide layer-footer">
+    <label class="control-label col-xs-12 col-sm-2"></label>
+    <div class="col-xs-12 col-sm-8">
+        <button type="reset" class="btn btn-primary btn-embossed btn-close" onclick="Layer.closeAll();">{:__('Close')}</button>
+    </div>
+</div>

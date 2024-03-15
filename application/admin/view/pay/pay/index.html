@@ -1,0 +1,93 @@
+<div class="panel panel-default panel-intro">
+
+    <div class="panel-heading">
+        {:build_heading(null,FALSE)}
+        <ul class="nav nav-tabs" data-field="status">
+            <li class="active"><a href="#t-all" data-value="" data-toggle="tab">{:__('All')}</a></li>
+            {foreach name="statusList" item="vo"}
+            <li><a href="#t-{$key}" data-value="{$key}" data-toggle="tab">{$vo}</a></li>
+            {/foreach}
+        </ul>
+    </div>
+
+
+    <div class="panel-body">
+
+        <div class="row" style="margin-top:15px;">
+
+            <div class="col-lg-12">
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="panel bg-blue">
+                    <div class="panel-body">
+                        <div class="panel-title">
+                            <span class="label label-success pull-right">当日提款金额</span>
+                            <h5>当日申请提款金额</h5>
+                        </div>
+                        <div class="panel-content">
+                            <h1 class="no-margins" id="todayMoney">￥0.00</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="panel bg-aqua-gradient">
+                    <div class="panel-body">
+                        <div class="ibox-title">
+                            <span class="label label-info pull-right">当天已成功处理金额</span>
+                            <h5>成功打款金额</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <h1 class="no-margins" id="todaySuccMoney">￥0.00</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <div class="panel bg-purple-gradient">
+                    <div class="panel-body">
+                        <div class="ibox-title">
+                            <span class="label label-primary pull-right">总金额</span>
+                            <h5>平台总提款金额</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <h1 class="no-margins" id="allMoney">￥0.00</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="panel bg-green-gradient">
+                    <div class="panel-body">
+                        <div class="ibox-title">
+                            <span class="label label-primary pull-right">提款成功</span>
+                            <h5>平台总提款成功金额</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <h1 class="no-margins" id="allSuccMoney">￥0.00</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="one">
+                <div class="widget-body no-padding">
+                    <div id="toolbar" class="toolbar">
+                        <a href="javascript:;" class="btn btn-primary btn-refresh" title="{:__('Refresh')}" ><i class="fa fa-refresh"></i>&nbsp;&nbsp;刷新 </a>
+                        <a href="javascript:;" class="btn btn-danger btn-multi btn-disabled disabled" data-params="status=2" title="批量冻结订单" >批量冻结 </a>
+                        <a href="javascript:;" class="btn btn-danger btn-multi btn-disabled disabled" data-params="status=1" title="批量手工处理" >批量手工处理成功 </a>
+                        <a href="javascript:;" class="btn btn-warning">当前列表金额:<span id="listMoney">￥.00</span>&nbsp;&nbsp;手续费：<span id="listChargeMoney">￥.00</span></a>
+                    </div>
+                    <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
+                           width="100%">
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

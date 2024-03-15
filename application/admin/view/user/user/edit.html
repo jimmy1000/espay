@@ -1,0 +1,205 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">商户号:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input  data-rule="required" class="form-control"  type="text" value="{$row.merchant_id}" readonly>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-group_id" class="control-label col-xs-12 col-sm-2">{:__('Group')}:</label>
+        <div class="col-xs-12 col-sm-10">
+            {$groupList}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text" value="{$row.username}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-nickname" class="control-label col-xs-12 col-sm-2">{:__('Nickname')}:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-nickname" data-rule="required" class="form-control" name="row[nickname]" type="text" value="{$row.nickname}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-password" class="control-label col-xs-12 col-sm-2">{:__('Password')}:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-password" data-rule="password" class="form-control" name="row[password]" type="text" value="" placeholder="{:__('Leave password blank if dont want to change')}" autocomplete="new-password" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-paypassword" class="control-label col-xs-12 col-sm-2">提现密码:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-paypassword" data-rule="password" class="form-control" name="row[paypassword]" type="text" value="" placeholder="{:__('Leave password blank if dont want to change')}" autocomplete="new-paypassword" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-mobile" class="control-label col-xs-12 col-sm-2">{:__('Mobile')}:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-mobile" data-rule="" class="form-control" name="row[mobile]" type="text" value="{$row.mobile}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">手机号是否绑定:</label>
+        <div class="col-xs-12 col-sm-10">
+            {:build_radios('row[mobilebind]',[0=>'未绑定',1=>'绑定'],$row['mobilebind'])}
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">上级代理编号:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-agent_id"  data-source="user/user/index" data-field="merchant_id"  data-primary-key="merchant_id" data-searchField="merchant_id" data-autoFillResult="true" class="form-control selectpage" name="row[agent_id]" type="text" value="{$row.agent_id}">
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">结算类型:</label>
+        <div class="col-xs-12 col-sm-10">
+            <select name="row[balancestyle]" class="form-control selectpicker">
+                <option value="-1" {eq name="row['balancestyle']" value="-1"}selected{/eq}>按照系统默认配置</option>
+                <option value="D" {eq name="row['balancestyle']" value="D"}selected{/eq}>自然日</option>
+                <option value="T" {eq name="row['balancestyle']" value="T"}selected{/eq}>工作日</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">结算周期:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input type="text" name="row[balancetime]" value="{$row['balancetime']}" class="form-control" data-rule="required" />
+            <div class="alert alert-info" style="margin-top: 5px">
+                例如T+0这里填0，D+0这里填0，T+1这里填1，与结算类型配合使用，-1代表使用系统默认设置
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">当日提现比例:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input type="text" name="row[paylv]" value="{$row['paylv']}" class="form-control" data-rule="required" />
+            <div class="alert alert-info" style="margin-top: 5px">
+                默认-1 按照系统参数配置，如果需要冻结当天20%结算费用，则输入80
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">提现费率类型:</label>
+        <div class="col-xs-12 col-sm-10">
+            <select name="row[payrate_type]" class="form-control selectpicker">
+                <option value="-1" {eq name="row['payrate_type']" value="-1"}selected{/eq}>按照系统默认配置</option>
+                <option value="0" {eq name="row['payrate_type']" value="0"}selected{/eq}>按笔收费</option>
+                <option value="1" {eq name="row['payrate_type']" value="1"}selected{/eq}>按百分比收费</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">提现费率:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input type="text" name="row[payrate]" value="{$row['payrate']}" class="form-control" data-rule="required" />
+
+            <div class="alert alert-info" style="margin-top: 5px">
+                单笔1.5元则输入1.5 按照百分比1.5%输入1.5 为0则不扣费 小于0则使用系统参数配置
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">代理收益:</label>
+        <div class="col-xs-12 col-sm-10">
+            <select name="row[ifagentmoney]" class="form-control selectpicker">
+                <option value="-1" {eq name="row['ifagentmoney']" value="-1"}selected{/eq}>按照系统默认配置</option>
+                <option value="0" {eq name="row['ifagentmoney']" value="0"}selected{/eq}>关闭代理收益</option>
+                <option value="1" {eq name="row['ifagentmoney']" value="1"}selected{/eq}>开启代理收益</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">公钥设置:</label>
+        <div class="col-xs-12 col-sm-10">
+            <textarea class="form-control" name="row[public_key]" rows="6">{$row['public_key']}</textarea>
+            <div class="text-danger">修改此项会影响线上交易，慎重！！</div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">请求IP:</label>
+        <div class="col-xs-12 col-sm-10">
+            <textarea class="form-control" name="row[req_url]" rows="6">{$row['req_url']}</textarea>
+            <div class="text-danger">修改此项会影响线上交易，慎重！！多个值以英文,隔开</div>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">自动代付开关:</label>
+        <div class="col-xs-12 col-sm-10">
+            <select name="row[ifdaifuauto]" class="form-control selectpicker">
+                <option value="0" {eq name="row['ifdaifuauto']" value="0"}selected{/eq}>关闭</option>
+                <option value="1" {eq name="row['ifdaifuauto']" value="1"}selected{/eq}>开启</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">默认代付账户:</label>
+        <div class="col-xs-12 col-sm-10">
+            <input id="c-daifuid"  data-source="api/account/repay" class="form-control selectpage" name="row[daifuid]" type="text" value="{$row['daifuid']}">
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">批量代付开关:</label>
+        <div class="col-xs-12 col-sm-10">
+            <select name="row[batchrepay]" class="form-control selectpicker">
+                <option value="0" {eq name="row['batchrepay']" value="0"}selected{/eq}>关闭</option>
+                <option value="1" {eq name="row['batchrepay']" value="1"}selected{/eq}>开启</option>
+            </select>        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">开启API代付:</label>
+        <div class="col-xs-12 col-sm-10">
+            <select name="row[ifapirepay]" class="form-control selectpicker">
+                <option value="0" {eq name="row['ifapirepay']" value="0"}selected{/eq}>关闭</option>
+                <option value="1" {eq name="row['ifapirepay']" value="1"}selected{/eq}>开启</option>
+            </select>        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="content" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['normal'=>__('Normal'), 'hidden'=>__('锁定')], $row['status'])}
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">确定修改【{$row.merchant_id}】</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

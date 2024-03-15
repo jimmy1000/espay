@@ -1,0 +1,39 @@
+---------------------------------------------------------------
+[ 2024-03-13T12:27:21+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [0]致命错误: Class 'app\common\api\1' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T12:27:35+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [0]致命错误: Class 'app\common\api\1' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T12:41:37+08:00 ] 10.50.50.2 GET espay.com/api//Pay/backurl/code/1/orderno/1710304679951106004
+[ error ] [0]致命错误: Class 'app\common\api\1' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T12:47:32+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [0]致命错误: Class 'app\common\api\Hongyun' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T12:48:59+08:00 ] 10.50.50.2 GET espay.com/api//Pay/backurl/code/1/orderno/1710304679951106004
+[ error ] [0]致命错误: Class 'app\common\api\1' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T12:49:03+08:00 ] 10.50.50.2 GET espay.com/api//Pay/backurl/code/1/orderno/1710304679951106004
+[ error ] [0]致命错误: Class 'app\common\api\1' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T12:53:09+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [8]未定义数组索引: id[/mnt/projects/espay/application/common/api/Hongyun.php:22]
+---------------------------------------------------------------
+[ 2024-03-13T13:06:51+08:00 ] 10.50.50.2 GET espay.com/api/Pay/notify/code/hongyun/orderno/1710306393034949632
+[ error ] [8]未定义数组索引: member_id[/mnt/projects/espay/application/common/api/Hongyun.php:47]
+---------------------------------------------------------------
+[ 2024-03-13T13:47:18+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [8]未定义数组索引: id[/mnt/projects/espay/application/common/api/Hongyun.php:22]
+---------------------------------------------------------------
+[ 2024-03-13T13:52:08+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [0]致命错误: Class 'app\common\api\Hongyun' not found[/mnt/projects/espay/application/common.php:425]
+---------------------------------------------------------------
+[ 2024-03-13T15:28:30+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'[/mnt/projects/espay/application/api/controller/Pay.php:366]
+---------------------------------------------------------------
+[ 2024-03-13T15:29:22+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [8]未定义数组索引: id[/mnt/projects/espay/application/common/api/Hongyun.php:21]
+---------------------------------------------------------------
+[ 2024-03-13T16:17:10+08:00 ] 10.50.50.2 POST espay.com/api/pay?merId=2024034&orderId=20160806151343349&orderAmt=1000&channel=8085&desc=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE&ip=127.0.1.1&notifyUrl=test.notifyUrl.com&returnUrl=test.returnUrl.com&nonceStr=123123123&key=JEPtbmGVIWjixBKUDuclfhysTdOoqSvY
+[ error ] [0]致命错误: Call to undefined method app\common\api\hongyun::_sign()[/mnt/projects/espay/application/common/api/Hongyun.php:27]

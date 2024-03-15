@@ -1,0 +1,124 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            商户号：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" name="merchant_id" value="{$pay.merchant_id}" required  disabled/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            提现金额：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" name="money" value="{$pay.money}" required  disabled/>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            地区：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" name="address" value="{$pay.province}-{$pay.city}" required  disabled/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            提现信息：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea type="text" class="form-control" disabled=''>开户名：{$pay.name} 账户：{$pay.ka} 开户行：{$pay.bank} 支行：{$pay.zhihang} </textarea>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            状态：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" name="status" value="{$pay.status_text}" required  disabled/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            代付状态：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" name="daifustatus" value="{$pay.daifustatus_text}" required  disabled/>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-xs-12 col-sm-2">
+            申请时间：
+        </label>
+        <div class="col-xs-12 col-sm-8">
+            <input type="text" class="form-control" name="status" value="{:date('Ymd H:i:s',$pay['createtime'])}" required  disabled/>
+        </div>
+    </div>
+
+
+    {if condition="($pay.daifustatus eq '0' or $pay.daifustatus eq '2') and  ($pay.status eq '0') "}
+    <div class="form-group">
+        <label  class="control-label col-xs-12 col-sm-2">代付账户:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-daifuid" data-rule="required" data-source="api/account/repay" class="form-control selectpage" name="daifuid" type="text" value="{$daifuid}">
+        </div>
+    </div>
+    {/if}
+
+
+    <input type="hidden" name="id" value="{$pay.id}" />
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">确认无误后，点击提交代付</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+
+</form>
+
+
+<div class="panel-body">
+    <div class="panel-heading">
+        代付记录
+    </div>
+    <div class="form-group">
+        <table class="table table-hover">
+            <tr>
+                <th>订单号</th>
+                <th>代付订单号</th>
+                <th>状态</th>
+                <th>添加时间</th>
+                <th>支付机构</th>
+                <th>返回说明</th>
+                <th>支付时间</th>
+                <th>操作</th>
+            </tr>
+            {foreach name="list" item="item"}
+            <tr>
+                <td>{$item.orderno}</td>
+                <td>{$item.outorderno}</td>
+                <td>{$item.status_text}</td>
+                <td>{:date('Y-m-d H:i:s',$item['createtime'])}</td>
+                <td>{$item.account.name}</td>
+                <td>{$item.outdesc}</td>
+                <td>{:date('Y-m-d H:i:s',$item['paytime'])}</td>
+                <td><a href="{:url('/admin/pay/pay/select',['id'=>$item['id']])}" class="btn btn-success btn-ajax" id="btn-select">查询订单</a> </td>
+            </tr>
+            {/foreach}
+        </table>
+    </div>
+</div>

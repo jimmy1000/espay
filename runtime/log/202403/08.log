@@ -1,0 +1,3543 @@
+---------------------------------------------------------------
+[ 2024-03-08T13:42:04+08:00 ] 10.50.50.2 GET espay.com/index/test.html
+[运行时间：0.231314s] [吞吐率：4.32req/s] [内存消耗：4,345.40kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011727s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=6; PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005160s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001191s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.003550s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001208s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000094s ]
+[ info ] [ RUN ] app\index\controller\Test->index[ /mnt/projects/espay/application/index/controller/Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/index/view/test/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'list',
+  4 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000968s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:04+08:00 ] 10.50.50.2 GET espay.com/index/ajax/lang?callback=define&controllername=test&v=1709876524
+[运行时间：0.171379s] [吞吐率：5.84req/s] [内存消耗：3,217.15kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010830s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=6; PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/index/test.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'test',
+  'v' => '1709876524',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004259s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001139s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002705s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000927s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000075s ]
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /mnt/projects/espay/application/index/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000872s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:06+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?ref=addtabs
+[运行时间：0.212548s] [吞吐率：4.70req/s] [内存消耗：4,229.89kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010691s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004124s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000998s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000885s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:06+08:00 ] 10.50.50.2 GET espay.com/admin.php/index/index
+[运行时间：0.324749s] [吞吐率：3.08req/s] [内存消耗：4,854.28kb] [文件加载：162]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009977s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=1; PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004650s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001218s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002616s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000982s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000070s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /mnt/projects/espay/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001038s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.002129s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:06+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?addtabs=1
+[运行时间：0.254675s] [吞吐率：3.93req/s] [内存消耗：4,781.16kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011978s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004910s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001161s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002543s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001010s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000094s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /mnt/projects/espay/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totalUser',
+  6 => 'totalAgent',
+  7 => 'totalOrder',
+  8 => 'totalOrderAmount',
+  9 => 'todayOrderCount',
+  10 => 'todaySuccOrderCount',
+  11 => 'todayMoney',
+  12 => 'todayExpendMoney',
+  13 => 'allOrderCount',
+  14 => 'allMoney',
+  15 => 'allExpendMoney',
+  16 => 'totalviews',
+  17 => 'todayuserlogin',
+  18 => 'todayusersignup',
+  19 => 'todayorder',
+  20 => 'unsettleorder',
+  21 => 'sevendnu',
+  22 => 'sevendau',
+  23 => 'paylist',
+  24 => 'createlist',
+  25 => 'addonversion',
+  26 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001147s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001085s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:10+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1709876526
+[运行时间：0.195167s] [吞吐率：5.12req/s] [内存消耗：3,641.38kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014233s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1709876526',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005097s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001077s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002436s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001011s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000072s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000999s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001069s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:10+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=index&v=1709876526
+[运行时间：0.216491s] [吞吐率：4.62req/s] [内存消耗：3,642.93kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012064s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1709876526',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004554s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000904s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002002s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000850s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000835s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000916s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:42:15+08:00 ] 10.50.50.2 POST espay.com/admin.php/dashboard/chart
+[运行时间：0.253809s] [吞吐率：3.94req/s] [内存消耗：4,571.94kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012560s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'chart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/dashboard?addtabs=1',
+  'origin' => 'http://espay.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004326s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001341s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002370s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000936s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000078s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->chart[ /mnt/projects/espay/application/admin/controller/Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017805s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001412s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:44:31+08:00 ] 10.50.50.2 GET espay.com/admin.php/general/config?addtabs=1
+[运行时间：0.193041s] [吞吐率：5.18req/s] [内存消耗：4,669.13kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010998s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/general/config?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004122s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000977s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002181s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000874s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000085s ]
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /mnt/projects/espay/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000797s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000940s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T13:44:32+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=general.config&v=1709876671
+[运行时间：0.207251s] [吞吐率：4.83req/s] [内存消耗：3,641.52kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011637s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28cpvddri98nohb1rmdkepu9n4; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/general/config?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1709876671',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001077s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002418s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000975s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000066s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000956s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000954s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:17+08:00 ] 10.50.50.2 GET espay.com/
+[运行时间：0.219613s] [吞吐率：4.55req/s] [内存消耗：3,216.09kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014962s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005366s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001926s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.003491s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000980s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000092s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /mnt/projects/espay/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001023s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:17+08:00 ] 10.50.50.2 GET espay.com/favicon.ico
+[运行时间：0.103476s] [吞吐率：9.66req/s] [内存消耗：2,527.59kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006778s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.005241s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:26+08:00 ] 10.50.50.2 GET espay.com/admin.php
+[运行时间：0.129026s] [吞吐率：7.75req/s] [内存消耗：3,143.10kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008173s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003617s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000736s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000614s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:30+08:00 ] 10.50.50.2 GET espay.com/admin.php/index/login?url=%2Fadmin.php
+[运行时间：0.134839s] [吞吐率：7.42req/s] [内存消耗：3,619.48kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006542s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=2; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002742s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000521s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001236s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000512s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000042s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ /mnt/projects/espay/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000610s ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000484s ]
+[ info ] [ VIEW ] /mnt/projects/espay/addons/loginvideo/view/background.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001827s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:30+08:00 ] 10.50.50.2 GET espay.com/index.php?s=/captcha
+[运行时间：0.157428s] [吞吐率：6.35req/s] [内存消耗：2,545.82kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.022393s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /mnt/projects/espay/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.006745s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:30+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=index&v=1709887649
+[运行时间：0.138061s] [吞吐率：7.24req/s] [内存消耗：3,641.30kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006416s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1709887649',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003474s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001240s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001653s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000536s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000037s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000853s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000472s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:30+08:00 ] 10.50.50.2 POST espay.com/addons/geetest/index/start
+[运行时间：0.415510s] [吞吐率：2.41req/s] [内存消耗：3,276.50kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019742s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'origin' => 'http://espay.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'geetest',
+  'controller' => 'index',
+  'action' => 'start',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /mnt/projects/espay/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.007019s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000697s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:47:45+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[运行时间：0.365972s] [吞吐率：2.73req/s] [内存消耗：4,434.08kb] [文件加载：152]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015274s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=3; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'origin' => 'http://espay.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '255',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php',
+  '__token__' => '9350d2ff4449ea7e0cef5cc6a9acf819',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'ok',
+  'geetest_challenge' => '192cbca0fa991a3e37aa9a68645665e3',
+  'geetest_validate' => '883e9cd426097dc5c50e1ad3edee1a67',
+  'geetest_seccode' => '883e9cd426097dc5c50e1ad3edee1a67|jordan',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002850s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000689s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001797s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000653s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000062s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ /mnt/projects/espay/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003661s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000800s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:47+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[运行时间：0.160202s] [吞吐率：6.24req/s] [内存消耗：4,381.76kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007374s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=3; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'origin' => 'http://espay.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '152',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php',
+  '__token__' => '5547c89b2fcf54fb5607ee0159088a25',
+  'username' => 'admin',
+  'password' => 'admin123',
+  'captcha' => 'ok',
+  'geetest_challenge' => '',
+  'geetest_validate' => '',
+  'geetest_seccode' => '',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002814s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001128s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001858s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000576s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000048s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ /mnt/projects/espay/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.028481s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001035s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:56+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[运行时间：0.320982s] [吞吐率：3.12req/s] [内存消耗：4,458.77kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007297s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=3; keeplogin=1%7C86400%7C1709881184%7C0aabe8635837195655415589c8db9126; goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'origin' => 'http://espay.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '257',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php',
+  '__token__' => '28a26dcda59fbdb0556b82d00b7644f5',
+  'username' => 'admin',
+  'password' => 'admin123',
+  'captcha' => 'ok',
+  'geetest_challenge' => 'aa995e34c5f46f0d2da1e82a0e86a63f',
+  'geetest_validate' => 'a0f05692e1656699099ba04de27a576b',
+  'geetest_seccode' => 'a0f05692e1656699099ba04de27a576b|jordan',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002930s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001112s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002761s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001184s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000039s ]
+[ info ] [ RUN ] app\admin\controller\Index->login[ /mnt/projects/espay/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003445s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000846s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:57+08:00 ] 10.50.50.2 GET espay.com/admin.php
+[运行时间：0.309157s] [吞吐率：3.23req/s] [内存消耗：4,853.27kb] [文件加载：162]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009895s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/index/login?url=%2Fadmin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009447s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001808s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002043s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000655s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000059s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /mnt/projects/espay/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000594s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000851s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:57+08:00 ] 10.50.50.2 GET espay.com/admin.php/dashboard?addtabs=1
+[运行时间：0.230197s] [吞吐率：4.34req/s] [内存消耗：4,781.14kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010021s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003952s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000745s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002552s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001137s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000161s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /mnt/projects/espay/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totalUser',
+  6 => 'totalAgent',
+  7 => 'totalOrder',
+  8 => 'totalOrderAmount',
+  9 => 'todayOrderCount',
+  10 => 'todaySuccOrderCount',
+  11 => 'todayMoney',
+  12 => 'todayExpendMoney',
+  13 => 'allOrderCount',
+  14 => 'allMoney',
+  15 => 'allExpendMoney',
+  16 => 'totalviews',
+  17 => 'todayuserlogin',
+  18 => 'todayusersignup',
+  19 => 'todayorder',
+  20 => 'unsettleorder',
+  21 => 'sevendnu',
+  22 => 'sevendau',
+  23 => 'paylist',
+  24 => 'createlist',
+  25 => 'addonversion',
+  26 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000885s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000627s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:57+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=index&v=1709888037
+[运行时间：0.169075s] [吞吐率：5.91req/s] [内存消耗：3,642.91kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009044s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1709888037',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003345s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001188s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002072s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000591s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000686s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001022s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:57+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1709888037
+[运行时间：0.184723s] [吞吐率：5.41req/s] [内存消耗：3,641.38kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009980s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1709888037',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003138s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000637s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001655s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000670s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000141s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000510s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000562s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:53:58+08:00 ] 10.50.50.2 POST espay.com/admin.php/dashboard/chart
+[运行时间：0.177619s] [吞吐率：5.63req/s] [内存消耗：4,571.94kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010923s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => 'chart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'goeasyNode=5; PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/dashboard?addtabs=1',
+  'origin' => 'http://espay.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002827s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001073s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002824s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001325s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000080s ]
+[ info ] [ RUN ] app\admin\controller\Dashboard->chart[ /mnt/projects/espay/application/admin/controller/Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004379s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000884s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:55:52+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream?addtabs=1
+[运行时间：0.162988s] [吞吐率：6.14req/s] [内存消耗：4,568.18kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008544s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003383s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001114s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001623s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000796s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000060s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/upstream/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000964s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001086s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:55:52+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.upstream&v=1709888152
+[运行时间：0.149242s] [吞吐率：6.70req/s] [内存消耗：3,638.20kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008121s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.upstream',
+  'v' => '1709888152',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002795s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000669s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001734s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000570s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000043s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000495s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000540s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:55:53+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709888152581
+[运行时间：0.165525s] [吞吐率：6.04req/s] [内存消耗：4,607.91kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006693s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709888152581',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006560s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001614s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001849s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000612s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000040s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000601s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000678s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:56:07+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/auth?addtabs=1
+[运行时间：0.165161s] [吞吐率：6.05req/s] [内存消耗：4,582.92kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010495s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.auth',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/user/auth?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002849s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000990s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001651s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000828s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/user/auth.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000058s ]
+[ info ] [ RUN ] app\admin\controller\user\Auth->index[ /mnt/projects/espay/application/admin/controller/user/Auth.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/user/auth/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000633s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000688s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:56:07+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=user.auth&v=1709888167
+[运行时间：0.130275s] [吞吐率：7.68req/s] [内存消耗：3,641.37kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007379s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/user/auth?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.auth',
+  'v' => '1709888167',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003546s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000594s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001325s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000514s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000041s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/user/auth.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000411s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000479s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:56:08+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/auth/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709888167666
+[运行时间：0.187962s] [吞吐率：5.32req/s] [内存消耗：4,808.83kb] [文件加载：156]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008072s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.auth',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/user/auth?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709888167666',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003552s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001540s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002591s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000799s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/user/auth.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000051s ]
+[ info ] [ RUN ] app\admin\controller\user\Auth->index[ /mnt/projects/espay/application/admin/controller/user/Auth.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000903s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.006006s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:59:12+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709888152582
+[运行时间：0.167421s] [吞吐率：5.97req/s] [内存消耗：4,607.91kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010033s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709888152582',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003108s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001487s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002831s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000662s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000042s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000602s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000616s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T16:59:22+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709888152583
+[运行时间：0.175338s] [吞吐率：5.70req/s] [内存消耗：4,607.91kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008433s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709888152583',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003064s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001442s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002999s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000910s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000065s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000733s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000611s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:41+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/edit/ids/1?dialog=1
+[运行时间：0.174766s] [吞吐率：5.72req/s] [内存消耗：4,576.02kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012237s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+  'ids' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003556s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001787s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002782s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000621s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000050s ]
+[ info ] [ RUN ] app\common\controller\Backend->edit[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/upstream/edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'row',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001396s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001295s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:41+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.upstream&v=1709891680
+[运行时间：0.150552s] [吞吐率：6.64req/s] [内存消耗：3,638.25kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008570s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream/edit/ids/1?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.upstream',
+  'v' => '1709891680',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004021s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000733s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001684s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000802s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000044s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000582s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000933s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:49+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709888152584
+[运行时间：0.165028s] [吞吐率：6.06req/s] [内存消耗：4,607.91kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008575s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709888152584',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003679s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000679s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001565s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001019s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001200s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000726s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:51+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/account?addtabs=1
+[运行时间：0.162171s] [吞吐率：6.17req/s] [内存消耗：4,640.26kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007580s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.account',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002800s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001299s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001725s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000646s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000045s ]
+[ info ] [ RUN ] app\admin\controller\api\Account->index[ /mnt/projects/espay/application/admin/controller/api/Account.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/account/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ifrepayList',
+  6 => 'ifrechargeList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000597s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000716s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:51+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.account&v=1709891691
+[运行时间：0.141918s] [吞吐率：7.05req/s] [内存消耗：3,638.76kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008209s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.account',
+  'v' => '1709891691',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002996s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001141s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001659s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000664s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000040s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000571s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000579s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:51+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/items
+[运行时间：0.191478s] [吞吐率：5.22req/s] [内存消耗：4,412.62kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010537s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'items',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003889s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000730s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001577s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000614s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000059s ]
+[ info ] [ RUN ] app\admin\controller\api\Upstream->items[ /mnt/projects/espay/application/admin/controller/api/Upstream.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001203s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000681s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:51+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/account/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891691384
+[运行时间：0.202721s] [吞吐率：4.93req/s] [内存消耗：4,785.60kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008901s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.account',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891691384',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003356s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001115s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001790s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000480s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000039s ]
+[ info ] [ RUN ] app\admin\controller\api\Account->index[ /mnt/projects/espay/application/admin/controller/api/Account.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000728s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000998s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:53+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/account/add?dialog=1
+[运行时间：0.170252s] [吞吐率：5.87req/s] [内存消耗：4,874.35kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007910s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.account',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003159s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001091s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002378s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000638s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000039s ]
+[ info ] [ RUN ] app\common\controller\Backend->add[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/account/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ifrepayList',
+  6 => 'ifrechargeList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001030s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000743s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:53+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.account&v=1709891693
+[运行时间：0.129092s] [吞吐率：7.75req/s] [内存消耗：3,638.76kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007124s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account/add?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.account',
+  'v' => '1709891693',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003527s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001269s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001906s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000742s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000041s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000582s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000641s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:56+08:00 ] 10.50.50.2 POST espay.com/admin.php/api/upstream/index
+[运行时间：0.199972s] [吞吐率：5.00req/s] [内存消耗：4,576.33kb] [文件加载：152]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009348s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account/add?dialog=1',
+  'origin' => 'http://espay.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'name',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003190s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000701s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002235s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000047s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017775s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001023s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:54:57+08:00 ] 10.50.50.2 POST espay.com/admin.php/api/upstream/get
+[运行时间：0.193943s] [吞吐率：5.16req/s] [内存消耗：4,569.96kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010786s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account/add?dialog=1',
+  'origin' => 'http://espay.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003867s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001610s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001816s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001111s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\admin\controller\api\Upstream->get[ /mnt/projects/espay/application/admin/controller/api/Upstream.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005469s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000866s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:19+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/rule?addtabs=1
+[运行时间：0.167133s] [吞吐率：5.98req/s] [内存消耗：4,606.09kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008333s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004029s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001332s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001725s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000493s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/rule.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000045s ]
+[ info ] [ RUN ] app\admin\controller\api\Rule->index[ /mnt/projects/espay/application/admin/controller/api/Rule.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/rule/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000693s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000806s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:19+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.rule&v=1709891839
+[运行时间：0.122907s] [吞吐率：8.14req/s] [内存消耗：3,638.53kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009117s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.rule',
+  'v' => '1709891839',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003145s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000753s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002812s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000736s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000043s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000618s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000601s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:19+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/rule/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891839273
+[运行时间：0.174157s] [吞吐率：5.74req/s] [内存消耗：4,793.09kb] [文件加载：156]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008621s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891839273',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003514s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000525s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001534s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001109s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/rule.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000084s ]
+[ info ] [ RUN ] app\admin\controller\api\Rule->index[ /mnt/projects/espay/application/admin/controller/api/Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000853s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000767s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:21+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/rule/add?dialog=1
+[运行时间：0.160020s] [吞吐率：6.25req/s] [内存消耗：4,773.73kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008158s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.rule',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002800s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001489s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002074s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.002474s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/rule.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000065s ]
+[ info ] [ RUN ] app\common\controller\Backend->add[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/rule/add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'typeList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000840s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000577s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:21+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.rule&v=1709891841
+[运行时间：0.136462s] [吞吐率：7.33req/s] [内存消耗：3,638.53kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009976s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule/add?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.rule',
+  'v' => '1709891841',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004156s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001954s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002649s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000828s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000038s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000635s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000861s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:23+08:00 ] 10.50.50.2 POST espay.com/admin.php/api/type/index
+[运行时间：0.161691s] [吞吐率：6.18req/s] [内存消耗：4,592.09kb] [文件加载：152]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008231s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.type',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule/add?dialog=1',
+  'origin' => 'http://espay.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'andOr' => 'AND',
+  'orderBy' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'searchTable' => 'tbl',
+  'showField' => 'name',
+  'keyField' => 'id',
+  'searchField' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003203s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001087s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001691s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000468s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/type.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000042s ]
+[ info ] [ RUN ] app\admin\controller\api\Type->index[ /mnt/projects/espay/application/admin/controller/api/Type.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.006640s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001111s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:34+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/upstream/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709888152585
+[运行时间：0.180462s] [吞吐率：5.54req/s] [内存消耗：4,607.91kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008202s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.upstream',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/upstream?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709888152585',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004759s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.002009s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001920s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.001785s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/upstream.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000054s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000494s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000558s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:53+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/account/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891691385
+[运行时间：0.173796s] [吞吐率：5.75req/s] [内存消耗：4,785.60kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010444s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.account',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891691385',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003373s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001507s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.003403s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000687s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000046s ]
+[ info ] [ RUN ] app\admin\controller\api\Account->index[ /mnt/projects/espay/application/admin/controller/api/Account.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001267s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000817s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:55+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/rule/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891839274
+[运行时间：0.168979s] [吞吐率：5.92req/s] [内存消耗：4,793.09kb] [文件加载：156]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008132s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891839274',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003143s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001192s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001997s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000557s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/rule.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000107s ]
+[ info ] [ RUN ] app\admin\controller\api\Rule->index[ /mnt/projects/espay/application/admin/controller/api/Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000534s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000537s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:57+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/account/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891691386
+[运行时间：0.156936s] [吞吐率：6.37req/s] [内存消耗：4,785.60kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009395s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.account',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891691386',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003297s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000693s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001409s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000493s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000040s ]
+[ info ] [ RUN ] app\admin\controller\api\Account->index[ /mnt/projects/espay/application/admin/controller/api/Account.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000616s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000524s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:58+08:00 ] 10.50.50.2 GET espay.com/admin.php/api/account/check?addtabs=1
+[运行时间：0.161696s] [吞吐率：6.18req/s] [内存消耗：4,843.66kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008577s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'api.account',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account/check?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004548s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000558s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002150s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000961s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000042s ]
+[ info ] [ RUN ] app\admin\controller\api\Account->check[ /mnt/projects/espay/application/admin/controller/api/Account.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/api/account/check.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ifrepayList',
+  6 => 'ifrechargeList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000683s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000642s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:58+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=api.account&v=1709891878
+[运行时间：0.148972s] [吞吐率：6.71req/s] [内存消耗：3,638.76kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007833s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account/check?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'api.account',
+  'v' => '1709891878',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003137s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000940s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001669s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000531s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000039s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/api/account.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000561s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000587s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:57:58+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/apiaccount
+[运行时间：0.156929s] [吞吐率：6.37req/s] [内存消耗：4,427.73kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007574s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'apiaccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/api/account/check?addtabs=1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002858s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000728s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001415s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000537s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000090s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->apiaccount[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000833s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000760s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:58:03+08:00 ] 10.50.50.2 GET espay.com/admin.php/bank?addtabs=1
+[运行时间：0.152567s] [吞吐率：6.55req/s] [内存消耗：4,573.48kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007974s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/bank?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002872s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000970s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001786s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000485s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/bank.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000075s ]
+[ info ] [ RUN ] app\admin\controller\Bank->index[ /mnt/projects/espay/application/admin/controller/Bank.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/bank/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000485s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000571s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:58:03+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=bank&v=1709891883
+[运行时间：0.140810s] [吞吐率：7.10req/s] [内存消耗：3,638.51kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007541s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/bank?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'bank',
+  'v' => '1709891883',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002928s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001354s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001790s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000590s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000037s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/bank.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000579s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000648s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:58:04+08:00 ] 10.50.50.2 GET espay.com/admin.php/bank/index?addtabs=1&sort=weight&order=asc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891883805
+[运行时间：0.180038s] [吞吐率：5.55req/s] [内存消耗：4,726.22kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006847s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/bank?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+  'sort' => 'weight',
+  'order' => 'asc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891883805',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003026s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001533s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001823s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000839s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/bank.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000040s ]
+[ info ] [ RUN ] app\admin\controller\Bank->index[ /mnt/projects/espay/application/admin/controller/Bank.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000747s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000550s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:58:09+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/user?addtabs=1
+[运行时间：0.155239s] [吞吐率：6.44req/s] [内存消耗：4,645.60kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009661s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/user/user?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002925s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000819s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002072s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000918s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000042s ]
+[ info ] [ RUN ] app\admin\controller\user\User->index[ /mnt/projects/espay/application/admin/controller/user/User.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/user/user/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000842s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000797s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:58:09+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=user.user&v=1709891889
+[运行时间：0.155861s] [吞吐率：6.42req/s] [内存消耗：3,640.68kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008522s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/user/user?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.user',
+  'v' => '1709891889',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003246s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000756s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001677s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000632s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000054s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000617s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000659s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-08T17:58:09+08:00 ] 10.50.50.2 GET espay.com/admin.php/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1709891889270
+[运行时间：0.190969s] [吞吐率：5.24req/s] [内存消耗：4,798.88kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008644s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=r0u4i3i29kvhjrb8kurkec08uv; keeplogin=1%7C86400%7C1709974436%7C2f8c8edab2b53473c0aaab017c754b5c; goeasyNode=6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/user/user?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'user.id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1709891889270',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003174s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000945s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002119s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000770s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000099s ]
+[ info ] [ RUN ] app\admin\controller\user\User->index[ /mnt/projects/espay/application/admin/controller/user/User.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001121s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000977s ]
+[ info ] [ LOG ] INIT File

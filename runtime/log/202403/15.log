@@ -1,0 +1,1805 @@
+---------------------------------------------------------------
+[ 2024-03-15T09:33:52+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007922s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'a94b8073-0621-43fa-bdbe-e4e841a3df51',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004645s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005476s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T09:33:52+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.149561s] [吞吐率：6.69req/s] [内存消耗：4,308.58kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T09:40:36+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007717s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '2d64ae68-0029-412d-bfe2-8cd7d58b3a10',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003545s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.008050s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T09:40:36+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.148629s] [吞吐率：6.73req/s] [内存消耗：4,308.58kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T09:40:42+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006972s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'a4507f9c-2149-410f-bb79-026d38cd6993',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003152s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.008199s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T09:40:42+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.137154s] [吞吐率：7.29req/s] [内存消耗：4,306.39kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T09:46:02+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007407s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'e5c6bec2-bf7d-4552-ac10-48e3fef1e9e8',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002801s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005550s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T09:46:02+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.159826s] [吞吐率：6.26req/s] [内存消耗：4,306.02kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T09:49:49+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008754s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '275ca0d2-c70d-45e0-a7ce-83cc4deb4a98',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002973s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.007636s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T09:49:49+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.167094s] [吞吐率：5.98req/s] [内存消耗：4,315.80kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:21:02+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007070s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '19dd4ced-9aa6-4060-89a1-d6d992007431',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003246s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006741s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:21:02+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.195717s] [吞吐率：5.11req/s] [内存消耗：4,327.52kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:21:25+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007101s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '0257acdc-99f7-4ed8-9771-f9f773c08ae2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004596s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.007087s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:21:25+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.158374s] [吞吐率：6.31req/s] [内存消耗：4,327.52kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:22:07+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013451s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '4a7ddf5f-c6d6-4e7d-9093-54b1735737ed',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002962s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005743s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:22:07+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.177083s] [吞吐率：5.65req/s] [内存消耗：4,315.80kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:23:13+08:00 ] 10.50.50.2 OPTIONS espay.com/api/user/info
+[运行时间：0.153853s] [吞吐率：6.50req/s] [内存消耗：2,852.91kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.024741s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'origin' => 'http://localhost:9527',
+  'access-control-request-headers' => 'content-type,x-token',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003313s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.009248s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:13+08:00 ] 10.50.50.2 POST espay.com/api/user/info
+[运行时间：0.197844s] [吞吐率：5.05req/s] [内存消耗：6,256.48kb] [文件加载：173]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007434s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'origin' => 'http://localhost:9527',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-token' => '911b086d-3c73-43c5-bfbd-55eee7fc49fb',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '48',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'token' => '911b086d-3c73-43c5-bfbd-55eee7fc49fb',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002781s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn/user.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005851s ]
+[ info ] [ RUN ] app\api\controller\User->info[ /mnt/projects/espay/application/api/controller/User.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000945s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:13+08:00 ] 10.50.50.2 OPTIONS espay.com/api/config
+[运行时间：0.124388s] [吞吐率：8.04req/s] [内存消耗：2,704.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008287s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'origin' => 'http://localhost:9527',
+  'access-control-request-headers' => 'x-token',
+  'access-control-request-method' => 'GET',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003431s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.005897s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:14+08:00 ] 10.50.50.2 GET espay.com/api/config
+[运行时间：0.172519s] [吞吐率：5.80req/s] [内存消耗：4,169.01kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010156s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'origin' => 'http://localhost:9527',
+  'x-token' => '911b086d-3c73-43c5-bfbd-55eee7fc49fb',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004219s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.009819s ]
+[ info ] [ RUN ] app\api\controller\Config->index[ /mnt/projects/espay/application/api/controller/Config.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001898s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:14+08:00 ] 10.50.50.2 OPTIONS espay.com/api/channel
+[运行时间：0.152695s] [吞吐率：6.55req/s] [内存消耗：2,711.94kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.020819s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'channel',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'origin' => 'http://localhost:9527',
+  'access-control-request-headers' => 'x-token',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003789s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.007416s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:14+08:00 ] 10.50.50.2 OPTIONS espay.com/api/agent/orderlist
+[运行时间：0.152960s] [吞吐率：6.54req/s] [内存消耗：2,760.64kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.020816s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'origin' => 'http://localhost:9527',
+  'access-control-request-headers' => 'content-type,x-token',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003909s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.007156s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:14+08:00 ] 10.50.50.2 POST espay.com/api/channel
+[运行时间：0.226601s] [吞吐率：4.41req/s] [内存消耗：6,118.47kb] [文件加载：173]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009844s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'channel',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'origin' => 'http://localhost:9527',
+  'x-token' => '911b086d-3c73-43c5-bfbd-55eee7fc49fb',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002925s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.009312s ]
+[ info ] [ RUN ] app\api\controller\Channel->index[ /mnt/projects/espay/application/api/controller/Channel.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001458s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:14+08:00 ] 10.50.50.2 POST espay.com/api/agent/orderlist
+[运行时间：0.236312s] [吞吐率：4.23req/s] [内存消耗：6,271.08kb] [文件加载：177]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008359s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:9527/',
+  'origin' => 'http://localhost:9527',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-token' => '911b086d-3c73-43c5-bfbd-55eee7fc49fb',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '79',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+)
+[ info ] [ PARAM ] array (
+  'merchant_id' => '',
+  'status' => '',
+  'api_type_id' => '',
+  'date' => '',
+  'orderno' => '',
+  'page' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004190s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.018260s ]
+[ info ] [ RUN ] app\api\controller\Agent->orderlist[ /mnt/projects/espay/application/api/controller/Agent.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000916s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:45+08:00 ] 10.50.50.2 GET espay.com/admin.php/faqueue/log?addtabs=1
+[运行时间：0.155457s] [吞吐率：6.43req/s] [内存消耗：4,566.84kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007003s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'faqueue.log',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9mhmdagqe087m8is2o8ds3sfml; goeasyNode=8; keeplogin=1%7C86400%7C1710410918%7C834ed8a7d5280a89719725b2f63cf2c4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/faqueue/log?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002702s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000906s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002483s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000590s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/faqueue/log.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000055s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ VIEW ] /mnt/projects/espay/public/../application/admin/view/faqueue/log/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000592s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000599s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:45+08:00 ] 10.50.50.2 GET espay.com/admin.php/ajax/lang?callback=define&controllername=faqueue.log&v=1710469425
+[运行时间：0.130742s] [吞吐率：7.65req/s] [内存消耗：3,637.83kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007487s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9mhmdagqe087m8is2o8ds3sfml; goeasyNode=8; keeplogin=1%7C86400%7C1710410918%7C834ed8a7d5280a89719725b2f63cf2c4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/faqueue/log?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'faqueue.log',
+  'v' => '1710469425',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002657s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000788s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.002555s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000831s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000040s ]
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /mnt/projects/espay/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/faqueue/log.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000648s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000581s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:46+08:00 ] 10.50.50.2 GET espay.com/admin.php/faqueue/log/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710469425577
+[运行时间：0.176116s] [吞吐率：5.68req/s] [内存消耗：4,597.16kb] [文件加载：152]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010597s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'faqueue.log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9mhmdagqe087m8is2o8ds3sfml; goeasyNode=8; keeplogin=1%7C86400%7C1710410918%7C834ed8a7d5280a89719725b2f63cf2c4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/faqueue/log?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1710469425577',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002687s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001408s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001884s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000523s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/faqueue/log.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000039s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000497s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000574s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:23:47+08:00 ] 10.50.50.2 GET espay.com/admin.php/faqueue/log/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1710469425578
+[运行时间：0.166581s] [吞吐率：6.00req/s] [内存消耗：4,597.16kb] [文件加载：152]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009808s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'faqueue.log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9mhmdagqe087m8is2o8ds3sfml; goeasyNode=8; keeplogin=1%7C86400%7C1710410918%7C834ed8a7d5280a89719725b2f63cf2c4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/faqueue/log?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1710469425578',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003851s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.001152s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001979s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000878s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/faqueue/log.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000063s ]
+[ info ] [ RUN ] app\common\controller\Backend->index[ /mnt/projects/espay/application/admin/library/traits/Backend.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000630s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000760s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-15T10:29:05+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007402s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'db6f3f69-f193-4453-900a-918f1fb4b933',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004118s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006358s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:29:05+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.157869s] [吞吐率：6.33req/s] [内存消耗：4,327.48kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:29:16+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006543s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '7a8abdd7-7562-4141-84f9-739d4a4ae171',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004116s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006724s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:29:16+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.159337s] [吞吐率：6.28req/s] [内存消耗：4,327.48kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:29:36+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008532s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '35ede9fa-ab09-49bb-885d-1449586694bf',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003095s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005194s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:29:36+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.169028s] [吞吐率：5.92req/s] [内存消耗：4,327.48kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:30:01+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009504s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'c49e7a0a-c43b-4801-aab7-620ff68f5ebb',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004295s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006515s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:30:01+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.164541s] [吞吐率：6.08req/s] [内存消耗：4,327.52kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:30:22+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010555s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '2a1ddce0-ffbb-485f-8c0d-6038ad887649',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002982s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005278s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:30:22+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.180334s] [吞吐率：5.55req/s] [内存消耗：4,315.80kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:30:52+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012182s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'b0122593-97aa-49a7-9f23-0240e5ffd678',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002823s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.004106s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:30:52+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.156421s] [吞吐率：6.39req/s] [内存消耗：4,315.80kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:31:06+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007612s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'fc59a200-1443-43b1-996a-77094dbce20e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003779s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006054s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:31:06+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.142345s] [吞吐率：7.03req/s] [内存消耗：4,315.80kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:31:31+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007193s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'd29877eb-90a7-46d3-b033-7deb261d3f26',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002992s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005181s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:31:31+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.159478s] [吞吐率：6.27req/s] [内存消耗：4,327.52kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:35:29+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008441s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '53948f40-419f-42fb-8799-55b74b75539f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003747s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.008000s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:35:29+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.161956s] [吞吐率：6.17req/s] [内存消耗：4,328.20kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:36:42+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006651s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '34efe855-6f6d-4e1d-aa08-d060e7c9af0f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003063s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005526s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:36:42+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.186772s] [吞吐率：5.35req/s] [内存消耗：4,331.56kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:42:03+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008031s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '1a5240fc-ec29-4863-abe4-60d2f48ad2a0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002931s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006247s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:42:03+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.166314s] [吞吐率：6.01req/s] [内存消耗：4,315.84kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:42:12+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007762s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '8d81235a-8ffd-4d70-986a-f1f83d5c1a9e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003568s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.007737s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:42:12+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.148881s] [吞吐率：6.72req/s] [内存消耗：4,331.56kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:42:22+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009651s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'ce2e0ae0-e20c-486c-bbf7-40c8e3bcf7ce',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003055s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.007560s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:42:23+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.170861s] [吞吐率：5.85req/s] [内存消耗：4,331.56kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T10:58:26+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007088s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '9071498c-a77c-4f0d-83f0-a61be97b7268',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003161s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.004271s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T10:58:26+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.140504s] [吞吐率：7.12req/s] [内存消耗：4,315.84kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T11:06:02+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007837s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '28336afc-7d1c-4ec5-b4ab-432ee7161f47',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002983s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.005573s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T11:06:02+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.141250s] [吞吐率：7.08req/s] [内存消耗：4,331.56kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T11:06:16+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008921s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'b382263c-f01b-4370-847e-056e9832efae',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003278s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.008189s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T11:06:16+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.163024s] [吞吐率：6.13req/s] [内存消耗：4,331.52kb] [文件加载：146]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T11:10:14+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007071s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'f51f4072-bd70-4e35-93cf-9ae42f40c5a3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002734s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.004510s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T11:10:14+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.148608s] [吞吐率：6.73req/s] [内存消耗：4,316.12kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T11:10:26+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008576s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'c391d995-cf1b-41da-98b9-ed5ea2176304',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003456s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.006395s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T11:10:26+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.153649s] [吞吐率：6.51req/s] [内存消耗：4,316.12kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-15T11:11:41+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010030s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '198',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => 'e2de5c04-d37f-4d6a-8b0e-67ee5705e04e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'payOrderId' => 'P1767854093546631169',
+  'mchNo' => 'M1709365676',
+  'mchOrderNo' => '1710324235476166403',
+  'ifCode' => '8085',
+  'amount' => '100000',
+  'state' => '2',
+  'createdAt' => '1622016572190',
+  'reqTime' => '1622016572190',
+  'sign' => '27993D7F630F8B7368A1D6E9B6D06BF8',
+  'code' => 'hongyun',
+  'orderno' => '1710324015354443875',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003354s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.008570s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-15T11:11:41+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
+[运行时间：0.179129s] [吞吐率：5.58req/s] [内存消耗：4,605.72kb] [文件加载：152]
+[ info ] [ DB ] INIT mysql

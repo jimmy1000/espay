@@ -1,0 +1,36 @@
+{
+    "name": "dingjian/easypay",
+    "description": "基于vue+fastadmin开发的聚合支付系统后端",
+    "type": "project",
+    "keywords": [
+        "easypay",
+        "thinkphp",
+        "fastadmin"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "易聚合支付系统",
+            "email": "6666666@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "topthink/framework": "~5.0.24",
+        "overtrue/wechat": "~3.1",
+        "endroid/qr-code": "^1.9",
+        "topthink/think-captcha": "^1.0",
+        "mtdowling/cron-expression": "^1.2",
+        "phpmailer/phpmailer": "^5.2",
+        "karsonzhang/fastadmin-addons": "~1.1.4",
+        "overtrue/pinyin": "~3.0",
+        "phpoffice/phpexcel": "^1.8",
+        "topthink/think-migration": "1.1.1",
+        "phpoffice/phpspreadsheet": "^1.2",
+        "nesbot/carbon": "^2.17",
+        "topthink/think-queue": "1.1.6"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

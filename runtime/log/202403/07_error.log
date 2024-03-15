@@ -1,0 +1,195 @@
+---------------------------------------------------------------
+[ 2024-03-07T12:41:05+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:42:36+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:43:01+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:43:43+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:43:44+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:43:46+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:44:22+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:44:36+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:44:50+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:45:02+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:01+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:05+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:30+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:31+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:32+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:32+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:48:32+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:53:24+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:53:25+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:53:26+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:53:34+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:53:48+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:55:41+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:56:33+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:56:36+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T12:59:31+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:00:37+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:02:46+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:02:49+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:02:51+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:04:44+08:00 ] 10.50.50.2 GET espay.com/add.html
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:05:03+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:10:57+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:10:58+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:10:58+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:10:59+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:01+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:02+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:03+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:04+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:05+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:12+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:13+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:13:15+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis
+---------------------------------------------------------------
+[ 2024-03-07T13:14:52+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:27:58+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:44:37+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:50:20+08:00 ] 10.50.50.2 GET espay.com/index/test.html
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T13:52:36+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:52:39+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:52:40+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:52:41+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:55:40+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:56:48+08:00 ] 10.50.50.2 GET espay.com/
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:56:52+08:00 ] 10.50.50.2 GET espay.com/index.php
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T13:57:11+08:00 ] 10.50.50.2 GET espay.com/admin
+[ error ] [0]not support: redis[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:44]
+---------------------------------------------------------------
+[ 2024-03-07T14:19:31+08:00 ] 10.50.50.2 GET espay.com/index/test.html
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:32:12+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:32:25+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:32:29+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:33:59+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:34:19+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:35:53+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:37:01+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [8192]Array and string offset access syntax with curly braces is deprecated[/mnt/projects/espay/thinkphp/library/think/db/Query.php:400]
+---------------------------------------------------------------
+[ 2024-03-07T14:55:08+08:00 ] 10.50.50.2 POST espay.com/admin.php/index/login?url=%2Fadmin.php
+[ error ] [2002]SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known[/mnt/projects/espay/thinkphp/library/think/db/Connection.php:295]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>GoEasy推送示例</title>
+        <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//cdn.fastadmin.net/assets/css/frontend.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="well" style="margin-top:30px;">
+                <form class="form-horizontal" method="POST" action="{:addon_url('goeasy/index/send')}">
+                    <fieldset>
+                        <legend>GoEasy推送示例</legend>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label">发送对象</label>
+                            <div class="col-lg-10">
+                                <label for="type-user">
+                                    <input id="type-user" name="type" type="radio" value="user" checked/> 前台用户
+                                </label>
+                                <label for="type-admin">
+                                    <input id="type-admin" name="type" type="radio" value="admin"/> 后台管理员
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group form-user">
+                            <label class="col-lg-2 control-label">用户ID</label>
+                            <div class="col-lg-10">
+                                <input name="user_id" class="form-control" type="number" placeholder="留空代表发送给所有用户" value="1">
+                                <p>请确保该用户已登录，留空代表发送给所有用户</p>
+                            </div>
+                        </div>
+                        <div class="form-group form-admin hidden">
+                            <label class="col-lg-2 control-label">管理员ID</label>
+                            <div class="col-lg-10">
+                                <input name="admin_id" class="form-control" type="number" placeholder="留空代表发送给所有管理员" value="1">
+                                <p>请确保该管理员已登录，留空代表发送给所有管理员</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label">消息内容</label>
+                            <div class="col-lg-10">
+                                <textarea name="content" class="form-control" cols="30" rows="10" placeholder="消息内容">Hello!</textarea>
+                                <p>示例发送的是字符串，使用时可以发送数组</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit" class="btn btn-primary">发送</button>
+                                <button type="reset" class="btn btn-default">重置</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+        <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('[name="type"]').change(function () {
+                    var type = $('[name="type"]:checked').val();
+                    if (type == 'user') {
+                      $('.form-user').removeClass('hidden');
+                      $('.form-admin').addClass('hidden');
+                    } else {
+                      $('.form-user').addClass('hidden');
+                      $('.form-admin').removeClass('hidden');
+                    }
+                })
+            });
+        </script>
+    </body>
+</html>

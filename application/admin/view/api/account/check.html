@@ -1,0 +1,42 @@
+<style type="text/css">
+    @media (max-width: 375px) {
+        .edit-form tr td input{width:100%;}
+        .edit-form tr th:first-child,.edit-form tr td:first-child{
+            width:20%;
+        }
+        .edit-form tr th:nth-last-of-type(-n+2),.edit-form tr td:nth-last-of-type(-n+2){
+            display: none;
+        }
+    }
+    .edit-form table > tbody > tr td a.btn-delcfg{
+        visibility: hidden;
+    }
+    .edit-form table > tbody > tr:hover td a.btn-delcfg{
+        visibility: visible;
+    }
+</style>
+<div class="panel panel-default panel-intro">
+    <div class="panel-heading">
+        {:build_heading(null, false)}
+    </div>
+
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+
+            <div class="alert alert-danger">附加参数请使用http报文串,只支持bankcode,user_id,ip。</div>
+            <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+
+                <div class="form-inline" data-toggle="cxselect" data-selects="first,second">
+                    <select class="first form-control" name="first" data-url="ajax/apiaccount" id="account_id"></select>
+                    <select class="second form-control" name="second" data-url="ajax/apitype" data-query-name="account_id" id="api_type_id"></select>
+                    <input type="number" name="money" id="money" class="form-control" placeholder="金额" value="10">
+                    <input type="text" name="params" id="params" class="form-control" placeholder="附加参数，比如说用户ip，bankcode，user_id等" style="width: 300px">
+                    <button type="button" class="btn btn-success" id="checkBtn">立即检测</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
