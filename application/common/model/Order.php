@@ -139,6 +139,7 @@ class Order extends Model
 
         $userModel = User::getByMerchantId($data['merchant_id']);
 
+
         if (is_null($userModel) || $userModel['group_id'] != '2' || $userModel['status'] == 'hidden' || $userModel['ifagentmoney'] != '1') {
             return false;
         }
@@ -164,6 +165,7 @@ class Order extends Model
         $nowRate = $agentRate; //当前使用的费率
 
         // 如果订单费率 > 代理费率
+
         if ($agentRate < $data['rate']) {
             // 代理金额 订单费率 - 代理的费率 * 金额
             $agentMoney = $data['money'] * ($data['rate'] - $agentRate) / 100;  //代理金额
@@ -189,7 +191,6 @@ class Order extends Model
             'jkfl' => $data['jkfl'],                    //当前接口费率
             'leavemoney' => $userModel['money']       //加之前的金额
         );
-
         //继续计算下级，更改支持十级分销
         if (10 > $data['level'] && $userModel['agent_id'] > 0) {
             //计算代理费用

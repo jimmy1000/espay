@@ -76,8 +76,6 @@ abstract class  Base
      */
     protected function orderFinish($params)
     {
-
-
         $orderno = $params['orderno'];
         $up_orderno = $params['up_orderno'];
         $amount = $params['amount'];
@@ -89,7 +87,6 @@ abstract class  Base
         if (is_null($orderModel)) {
             return [0, '订单不存在'];
         }
-
         //已经支付
         if ($orderModel->status != 0) {
             return [0, '该订单支付成功'];
@@ -97,7 +94,6 @@ abstract class  Base
 
         $money1 = number_format($orderModel['total_money'], 2, "", ".");
         $money2 = number_format($amount, 2, "", ".");
-
         if ($money1 != $money2) {
             return [0, '订单金额不一致'];
         }
@@ -128,6 +124,7 @@ abstract class  Base
                 'level' => 1,
             );
             $agentMoneyArray = Order::agentMoney($agentData);
+
             if(is_array($agentMoneyArray)){
                 //计算代理总费用
                 foreach ($agentMoneyArray as $iDlMoneyArr) {
@@ -143,12 +140,11 @@ abstract class  Base
 
         try{
 
-            $orderModel->status = '1';
+            $orderModel->status = '0';
             $orderModel->paytime = time();
             $orderModel->up_orderno = $params['up_orderno'];
             $orderModel->agent_money = $agentMoneyAll;
             $orderModel->save();
-
             //给用户加上余额
             $money = $orderModel['have_money'];
 
@@ -173,18 +169,20 @@ abstract class  Base
                         'money'=>$agentMoney['money'],
                         'rate'=>$agentMoney['userfl']
                     ]);
-                    User::money($agentMoney['money'],$agentMoney['user_id'],'代理资金流水记录：订单金额' . $orderModel['total_money'] . '元，到账金额' . $agentMoney['money'] . '元',$orderModel->orderno,'3');
+
+                   User::money($agentMoney['money'],$agentMoney['user_id'],'代理资金流水记录：订单金额' . $orderModel['total_money'] . '元，到账金额' . $agentMoney['money'] . '元',$orderModel->orderno,'3');
+
                 }
             }
 
             //判断是否限额
             $channelModel = $orderModel->channel();
-
             if ($channelModel['daymoney'] > 0 ) {
                 //改变订单每日额度
                 $channelModel->todaymoney = $channelModel->todaymoney + $orderModel['total_money'];
                 $channelModel->save();
             }
+
 
             Db::commit();
 
@@ -195,6 +193,7 @@ abstract class  Base
 
         if($orderModel->style!='1'){
             //加入通知队列 发送异步通知
+
             Queue::push('app\common\job\Notify',['order_id'=>$orderModel->id]);
         }
 

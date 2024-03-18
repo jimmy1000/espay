@@ -222,10 +222,13 @@ class User extends Model
         if ($user && $money != 0) {
             $before = $user->money;
             $after = $user->money + $money;
+
             //更新会员信息
             $user->save(['money' => $after]);
-            //写入日志
+
+            //写入日志表
             MoneyLog::create(['user_id' => $user_id, 'money' => $money, 'before' => $before, 'after' => $after, 'memo' => $memo, 'orderno' => $orderno, 'style' => $style]);
+
         }
     }
 
