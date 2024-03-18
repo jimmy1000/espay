@@ -34,13 +34,11 @@ class Notify
 
     public function fire(Job $job, $data)
     {
-
-
         $order_id = $data['order_id'];
-
         //如果有并发通知过来只处理一个
 
         //同一时刻 同一用户只能处理一个
+
         $redislock = redisLocker();
         $resource = $redislock->lock('notify.' . $order_id, 3000);   //单位毫秒
 
@@ -61,7 +59,6 @@ class Notify
 
             return $job->delete();
         }
-
 
         Db::startTrans();
 
@@ -88,10 +85,9 @@ class Notify
 
             $userModel = $orderModel->user;
 
-            $post_data['sign'] = makeApiSign($post_data, $userModel->md5key, config('site.private_key'));
+            $post_data['sign'] = makeApiSign($post_data, $userModel->md5key);
 
             $notifyUrl = $orderModel->req_info['notifyUrl'];
-
 
             // 控制台显示消息
             $msg = date("Y-m-d H:i:s").'异步通知发送:订单号-》》'.$orderModel['orderno'].',通知地址：'.$notifyUrl;

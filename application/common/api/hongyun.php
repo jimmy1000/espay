@@ -69,12 +69,13 @@ class hongyun extends Base
         $key = $config['1']['default']; //秘钥，请获取最新秘钥
 
         $get_sign = $this->_sign($response_data,$key);//执行签名
+
         if($response_sign==$get_sign) {
             $orderModel = Order::get(['sys_orderno' => $ddh]);
+
             //同一时刻 同一用户只能处理一个
             $redislock = redisLocker();
             $resource = $redislock->lock('pay.' . $orderModel['merchant_id'], 3000);   //单位毫秒  pay.商户id
-
 
             if ($resource) {
 
@@ -86,11 +87,10 @@ class hongyun extends Base
                         'up_orderno' => $response_data['payOrderId'],   //上游单号
                         'amount' => $response_data['amount'] / 100       //金额
                     ];
-
                     $result = $this->orderFinish($params);
                     var_dump($result);exit();
                 } catch (\Exception $e) {
-                    var_dump('错误信息'.$e);exit();
+                    exit('错误信息'.$e);
                 } finally {
                     $redislock->unlock(['resource' => 'pay.' . $orderModel['merchant_id'], 'token' => $resource['token']]);
                 }

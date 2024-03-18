@@ -180,7 +180,7 @@ return [
         'type'   => 'redis',
         'host'   => Env::get('redis.host','127.0.0.1'),
         'port'=>Env::get('redis.port','6379'),
-        'password' => Env::get('redis.password',''),
+        'password' => Env::get('redis.password','qq123123'),
         // 缓存有效期 0表示永久缓存
         'expire' => 0,
     ],

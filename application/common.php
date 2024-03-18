@@ -342,6 +342,7 @@ if (!function_exists('hsv2rgb')) {
                 break;
             case 3:
                 $r = $p;
+
                 $g = $q;
                 $b = $v;
                 break;
@@ -428,7 +429,26 @@ function loadApi($code){
 }
 
 //生成私钥签名
-function makeApiSign($data,$md5Key,$privateKey){
+//function makeApiSign($data,$md5Key,$privateKey){
+//    ksort($data);
+//    reset($data);
+//    $arg = '';
+//    foreach ($data as $key => $val) {
+//        //空值不参与签名
+//        if ($val == '' || $key == 'sign') {
+//            continue;
+//        }
+//        $arg .= ($key . '=' . $val . '&');
+//    }
+//    $arg = $arg . 'key=' . $md5Key;
+//    //签名数据转换为大写
+//    $sig_data = strtoupper(md5($arg));
+//    //使用RSA签名
+//    $rsa = new Rsa('', $privateKey);
+//    //私钥签名
+//    return $rsa->sign($sig_data);
+//}
+function makeApiSign($data,$md5Key){
     ksort($data);
     reset($data);
     $arg = '';
@@ -443,9 +463,9 @@ function makeApiSign($data,$md5Key,$privateKey){
     //签名数据转换为大写
     $sig_data = strtoupper(md5($arg));
     //使用RSA签名
-    $rsa = new Rsa('', $privateKey);
+  //  $rsa = new Rsa('', $privateKey);
     //私钥签名
-    return $rsa->sign($sig_data);
+    return $sig_data;
 }
 /**
  * 验签

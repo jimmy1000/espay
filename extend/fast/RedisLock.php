@@ -55,9 +55,11 @@ class RedisLock
 
         $token = uniqid();
         $retry = $this->retryCount;
+
         do {
             $n = 0;
             $startTime = microtime(true) * 1000;    //微妙数
+
             foreach ($this->instances as $instance) {
                 if ($this->lockInstance($instance, $resource, $token, $ttl)) {
                     $n++;
@@ -112,7 +114,7 @@ class RedisLock
     }
 
     private function lockInstance($instance, $resource, $token, $ttl)
-    {
+    {//redis密码
         return $instance->set($resource, $token, ['NX', 'PX' => $ttl]);
     }
 
