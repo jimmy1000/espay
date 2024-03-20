@@ -1,3 +1,0 @@
----------------------------------------------------------------
-[ 2024-03-14T12:00:39+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
-[ error ] [0]类的属性不存在:app\common\model\Order->apiupstream[/mnt/projects/espay/thinkphp/library/think/Model.php:626]
