@@ -1,6 +1,6 @@
 /nbproject/
 /thinkphp/
-/vendor/
+#/vendor/
 /runtime/*
 /application/admin/command/Install/*.lock
 #/public/assets/libs/
