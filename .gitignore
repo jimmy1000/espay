@@ -3,7 +3,7 @@
 /vendor/
 /runtime/*
 /application/admin/command/Install/*.lock
-/public/assets/libs/
+#/public/assets/libs/
 /uploads/*
 /public/uploads/
 .idea
