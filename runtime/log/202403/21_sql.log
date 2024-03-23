@@ -1,0 +1,74 @@
+---------------------------------------------------------------
+[ 2024-03-21T10:56:14+08:00 ] 10.50.50.2 GET espay.com/api/config
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2024-03-21T10:56:15+08:00 ] 10.50.50.2 POST espay.com/api/user/getGoogleQrcode
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_auth` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_auth` WHERE  `user_id` = 5 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2024-03-21T10:56:18+08:00 ] 10.50.50.2 GET espay.com/api/config
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2024-03-21T10:56:19+08:00 ] 10.50.50.2 POST espay.com/api/user/moneylog
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_money_log` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_user_money_log` WHERE  `user_id` = 5 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_money_log` WHERE  `user_id` = 5 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2024-03-21T10:56:24+08:00 ] 10.50.50.2 GET espay.com/api/config
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2024-03-21T10:56:25+08:00 ] 10.50.50.2 POST espay.com/api/order
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_order` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` `order` LEFT JOIN `ep_api_type` `apitype` ON `order`.`api_type_id`=`apitype`.`id` WHERE  `order`.`merchant_id` = 2024035 LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `order`.`id`,`order`.`merchant_id`,`order`.`orderno`,`order`.`sys_orderno`,`order`.`up_orderno`,`order`.`total_money`,`order`.`have_money`,`order`.`agent_money`,`order`.`upstream_money`,`order`.`style`,`order`.`status`,`order`.`notify_status`,`order`.`notify_count`,`order`.`rate`,`order`.`channel_rate`,`order`.`api_upstream_id`,`order`.`api_account_id`,`order`.`api_type_id`,`order`.`req_info`,`order`.`createtime`,`order`.`paytime`,`order`.`repair`,`order`.`repair_admin_id`,`order`.`repair_time`,`order`.`req_ip`,apitype.name AS apitype__name FROM `ep_order` `order` LEFT JOIN `ep_api_type` `apitype` ON `order`.`api_type_id`=`apitype`.`id` WHERE  `order`.`merchant_id` = 2024035 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710950400 AND 1711036800  AND `status` = '1'  AND `merchant_id` = 2024035 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `createtime` BETWEEN 1710864000 AND 1710950400  AND `status` = '1'  AND `merchant_id` = 2024035 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `merchant_id` = 2024035 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT SUM(total_money) AS tp_sum FROM `ep_order` WHERE  `merchant_id` = 2024035  AND `status` = '1' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710950400 AND 1711036800  AND `merchant_id` = 2024035 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ep_order` WHERE  `createtime` BETWEEN 1710950400 AND 1711036800  AND `status` = '1'  AND `merchant_id` = 2024035 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT SUM(have_money) AS tp_sum FROM `ep_order` WHERE  `merchant_id` = 2024035  AND `status` = '1' LIMIT 1 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2024-03-21T10:56:25+08:00 ] 10.50.50.2 POST espay.com/api/channel
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:host=127.0.0.1;port=3306;dbname=espay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_token` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_token` WHERE  `token` = '10035402b30e7d1d2f8e4248fe64907a217a7674' LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_type` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_api_type` WHERE  `status` = '1' ORDER BY `weight` ASC,`id` DESC [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_user_apichannel` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_user_apichannel` WHERE  `user_id` = 5 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_rule` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_api_rule` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ep_api_channel` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_api_channel` WHERE  `api_type_id` = 9  AND `api_account_id` = 1 LIMIT 1 [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `ep_api_channel` WHERE  `api_account_id` = 1  AND `api_type_id` = 9 LIMIT 1 [ RunTime:0.000526s ]

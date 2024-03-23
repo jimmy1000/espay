@@ -1,0 +1,10 @@
+[ 2024-03-18T09:54:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000192s ]
+[ info ] [ LOG ] INIT File
+[ 2024-03-18T09:54:52+08:00 ][ info ] [ CACHE ] INIT redis
+[ 2024-03-18T09:54:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008260s ]
+[ 2024-03-18T09:54:52+08:00 ][ info ] [ DB ] INIT mysql
+[ 2024-03-18T10:17:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000165s ]
+[ info ] [ LOG ] INIT File
+[ 2024-03-18T10:17:34+08:00 ][ info ] [ CACHE ] INIT redis
+[ 2024-03-18T10:17:34+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009637s ]
+[ 2024-03-18T10:17:34+08:00 ][ info ] [ DB ] INIT mysql

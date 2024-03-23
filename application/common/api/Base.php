@@ -59,12 +59,10 @@ abstract class  Base
             return false;
         }
 
-        $account = $order->upstream;
-
+        $account = $order->apiaccount;
         if (is_null($account)) {
             return false;
         }
-
         return $account->params;
 
     }
@@ -88,10 +86,10 @@ abstract class  Base
             return [0, '订单不存在'];
         }
         //已经支付
-        if ($orderModel->status != 0) {
+        if ($orderModel->status == 1) {
+
             return [0, '该订单支付成功'];
         }
-
         $money1 = number_format($orderModel['total_money'], 2, "", ".");
         $money2 = number_format($amount, 2, "", ".");
         if ($money1 != $money2) {
@@ -140,7 +138,7 @@ abstract class  Base
 
         try{
 
-            $orderModel->status = '0';
+            $orderModel->status = '1';
             $orderModel->paytime = time();
             $orderModel->up_orderno = $params['up_orderno'];
             $orderModel->agent_money = $agentMoneyAll;
@@ -170,7 +168,7 @@ abstract class  Base
                         'rate'=>$agentMoney['userfl']
                     ]);
 
-                   User::money($agentMoney['money'],$agentMoney['user_id'],'代理资金流水记录：订单金额' . $orderModel['total_money'] . '元，到账金额' . $agentMoney['money'] . '元',$orderModel->orderno,'3');
+                    User::money($agentMoney['money'],$agentMoney['user_id'],'代理资金流水记录：订单金额' . $orderModel['total_money'] . '元，到账金额' . $agentMoney['money'] . '元',$orderModel->orderno,'3');
 
                 }
             }
@@ -213,7 +211,7 @@ abstract class  Base
         if(empty($orderno)){
             $orderno = request()->param('orderno','');
         }
-        
+
 
         $orderModel = Order::get([
             'sys_orderno'=>$orderno

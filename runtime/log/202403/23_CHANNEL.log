@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[ 2024-03-23T09:32:40+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/jinyi/orderno/1711102737265255466
+[ CHANNEL ] 金蚁支付回调信息:s=%2Fapi%2FPay%2Fnotify%2Fcode%2Fjinyi%2Forderno%2F1711102737265255466&mch_id=JY021&status=1&out_trade_no=1711102737265255466&sys_order_no=NY20240322181857C30C4A0&amount=100&trade_type=888&pay_time=20240322192733&sign=394F57E8E522051F9422A1B8FD18F47D

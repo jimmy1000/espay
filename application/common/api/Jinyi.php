@@ -5,7 +5,7 @@ use app\common\model\Order;
 use fast\Http;
 use think\Log;
 
-class hongyun extends Base
+class Jinyi extends Base
 {
 
 
@@ -14,17 +14,18 @@ class hongyun extends Base
 
         $config = $params['config'];
         $upstream_config= $params['upstream_config'];
-        $hongyun_mchNo = $upstream_config[0]['default'];
-        $hongyun_key = $upstream_config[1]['default'];
+        $jinyi_mchNo = $config['mch_id'];
+        $jinyi_key = $config['key'];
         $request_data = array();
-        $request_data['mchNo'] = $hongyun_mchNo;//商户号
-        $request_data['mchOrderNo'] = $params['sys_orderno'];//商户订单号
-        $request_data['productId'] = $params['channel'];//支付产品ID，具体请与平台管理联系
-        $request_data['amount'] = $params['total_money']*100;//支付金额
-        $request_data['clientIp'] = $params['ip'];//客户端ip
-        $request_data['notifyUrl'] = $params['notify_url'];//回调地址
-        $request_data['reqTime'] = time();//请求时间
-        $request_data['sign']=$this->_sign($request_data, $hongyun_key);//执行签名
+        $request_data['mch_id'] = $jinyi_mchNo;//商户号
+        $request_data['out_trade_no'] = $params['sys_orderno'];//商户订单号
+        $request_data['trade_type'] = $params['channel'];//支付产品ID，具体请与平台管理联系
+        $request_data['amount'] = $params['total_money'];//支付金额
+        $request_data['mch_create_ip'] = $params['ip'];//客户端ip
+        $request_data['notify_url'] = $params['notify_url'];//回调地址
+        $request_data['return_url'] = $params['return_url'];//同步回调地址
+        $request_data['sign']=$this->_xsign($request_data, $jinyi_key);//执行签名
+
 //
 //
 //        以前的参数 留着做对比
@@ -39,10 +40,10 @@ class hongyun extends Base
         $resp = Http::post($pay_url, $request_data);
         $result = json_decode($resp, true);
         if ($result['code'] == 0) {
-            $pay_url = $result['data']['payData'];//支付URL，直接跳转或者转为二维码
+            $pay_url = $result['data']['payUrl'];//支付URL，直接跳转或者转为二维码
             return [1,$pay_url];
         }
-        return [0,$result['message']];
+        return [0,$result['msg']];
 
     }
 
@@ -50,24 +51,20 @@ class hongyun extends Base
     public function notify()
     {
 
-        Log::write('鸿运回调信息:' . http_build_query($_REQUEST), 'CHANNEL');
+        Log::write('金蚁支付回调信息:' . http_build_query($_REQUEST), 'CHANNEL');
         $response_data = array();
-        $response_data['payOrderId'] = $_REQUEST['payOrderId']; //支付系统订单号
-        $response_data['mchNo'] = $_REQUEST['mchNo'];   //商户号
-        $response_data['mchOrderNo'] = $_REQUEST['mchOrderNo']; //返回商户传入的订单号
-        $response_data['ifCode'] = $_REQUEST['ifCode']; //支付接口编码
-        $response_data['amount'] = $_REQUEST['amount'];//支付金额,单位分
-        $response_data['state'] = $_REQUEST['state'];//支付订单状态2-支付成功5-测试冲正(已成功且标记为测定订单时返回)
-        $response_data['createdAt'] = $_REQUEST['createdAt'];
-        $response_data['reqTime'] = $_REQUEST['reqTime'];
+        $response_data['mch_id'] = $_REQUEST['mch_id']; //商户号
+        $response_data['status'] = $_REQUEST['status'];   //状态1成功0失败
+        $response_data['out_trade_no'] = $_REQUEST['out_trade_no']; //返回商户订单
+        $response_data['sys_order_no'] = $_REQUEST['sys_order_no']; //系统订单号
+        $response_data['amount'] = $_REQUEST['amount'];//支付金额
+        $response_data['trade_type'] = $_REQUEST['trade_type'];//支付方式
+        $response_data['pay_time'] = $_REQUEST['pay_time'];//支付时间
         $response_sign = $_REQUEST['sign'];
-
-
-        $ddh = $response_data['mchOrderNo']; //获取商户传入的订单号
+        $ddh = $response_data['out_trade_no']; //获取商户传入的订单号
         $config = $this->getOrderConfig($ddh);//获取订单上游配置
-        $key = $config['1']['default']; //秘钥，请获取最新秘钥
-
-        $get_sign = $this->_sign($response_data,$key);//执行签名
+        $key = $config['key']; //秘钥，请获取最新秘钥
+        $get_sign = $this->_xsign($response_data,$key);//执行签名
 
         if($response_sign==$get_sign) {
             $orderModel = Order::get(['sys_orderno' => $ddh]);
@@ -79,15 +76,14 @@ class hongyun extends Base
             if ($resource) {
 
                 try {
-
                     //更新订单状态
                     $params = [
                         'orderno' => $ddh,    //系统订单号
-                        'up_orderno' => $response_data['payOrderId'],   //上游单号
-                        'amount' => $response_data['amount'] / 100       //金额
+                        'up_orderno' => $response_data['sys_order_no'],   //上游单号
+                        'amount' => $response_data['amount']      //金额
                     ];
                     $result = $this->orderFinish($params);
-                    var_dump($result);exit();
+
                 } catch (\Exception $e) {
                     exit('错误信息'.$e);
                 } finally {
@@ -98,7 +94,7 @@ class hongyun extends Base
                 exit('locked error');
             }
 
-            exit('0');
+            exit('success');
         }
         exit('sign error');
     }
@@ -117,6 +113,22 @@ class hongyun extends Base
             $sign_str .= $k . '=' . $v . '&';
         }
         $sign_str .= 'key=' . $key;
+        $sign = strtoupper(md5($sign_str));
+        return $sign;
+    }
+    private function _xsign(array $data, string $key): string
+    {
+        ksort($data);
+        $sign_str = '';
+
+        foreach ($data as $k => $v) {
+            if ($v == '' || $k == 'sign') {
+                continue;
+            }
+            $sign_str .= $k . '=' . $v . '&';
+        }
+        $sign_str = rtrim($sign_str, '&');
+        $sign_str .=  $key;
         $sign = strtoupper(md5($sign_str));
         return $sign;
     }
