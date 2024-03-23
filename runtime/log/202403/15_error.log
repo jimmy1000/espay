@@ -1,6 +1,0 @@
----------------------------------------------------------------
-[ 2024-03-15T21:32:47+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
-[ error ] [0]NOAUTH Authentication required.[/mnt/projects/espay/thinkphp/library/think/cache/driver/Redis.php:123]
----------------------------------------------------------------
-[ 2024-03-15T21:33:32+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/hongyun/orderno/1710324015354443875
-[ error ] [0]NOAUTH Authentication required.[/mnt/projects/espay/extend/fast/RedisLock.php:119]
