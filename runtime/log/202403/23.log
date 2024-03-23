@@ -9853,3 +9853,101 @@
 [ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.015729s ]
 [ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.001074s ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-03-23T10:37:18+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/jinyi/orderno/1711102737265255466
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006893s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pay',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '179',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'espay.com',
+  'postman-token' => '31252665-c47a-4d9e-9f13-9264b54eb07e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.37.0',
+)
+[ info ] [ PARAM ] array (
+  'mch_id' => 'JY021',
+  'status' => '1',
+  'out_trade_no' => '1711102737265255466',
+  'sys_order_no' => 'NY20240322181857C30C4A0',
+  'amount' => '100',
+  'trade_type' => '888',
+  'pay_time' => '20240322192733',
+  'sign' => '394F57E8E522051F9422A1B8FD18F47D',
+  'code' => 'jinyi',
+  'orderno' => '1711102737265255466',
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002826s ]
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.004541s ]
+[ info ] [ RUN ] app\api\controller\Pay->notify[ /mnt/projects/espay/application/api/controller/Pay.php ]
+---------------------------------------------------------------
+[ 2024-03-23T10:37:18+08:00 ] 10.50.50.2 POST espay.com/api/Pay/notify/code/jinyi/orderno/1711102737265255466
+[运行时间：0.147003s] [吞吐率：6.80req/s] [内存消耗：4,412.05kb] [文件加载：144]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2024-03-23T10:38:00+08:00 ] 10.50.50.2 POST espay.com/admin.php/order/order/chart
+[运行时间：0.148684s] [吞吐率：6.73req/s] [内存消耗：4,741.27kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008335s ]
+[ info ] [ LANG ] /mnt/projects/espay/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.order',
+    2 => 'chart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=9mhmdagqe087m8is2o8ds3sfml; goeasyNode=2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://espay.com/admin.php/order/order?addtabs=1',
+  'origin' => 'http://espay.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'espay.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003072s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @config_init [ RunTime:0.000940s ]
+[ info ] [ BEHAVIOR ] Run \addons\goeasy\Goeasy @config_init [ RunTime:0.001574s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000507s ]
+[ info ] [ LANG ] /mnt/projects/espay/public/../application/admin/lang/zh-cn/order/order.php
+[ info ] [ BEHAVIOR ] Run \addons\geetest\Geetest @action_begin [ RunTime:0.000043s ]
+[ info ] [ RUN ] app\admin\controller\order\Order->chart[ /mnt/projects/espay/application/admin/controller/order/Order.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004509s ]
+[ info ] [ BEHAVIOR ] Run \addons\loginvideo\Loginvideo @response_send [ RunTime:0.000753s ]
+[ info ] [ LOG ] INIT File
