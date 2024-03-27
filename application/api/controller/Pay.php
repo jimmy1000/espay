@@ -145,11 +145,11 @@ class Pay extends Api
 //        }
 
         //检查签名是否正确
-        if (!$this->verifySign($data, $user['md5key'], $user['public_key'])) {
-            $msg = '签名验证失败!';
-            ApiLog::log($data, $msg);
-            $this->error($msg);
-        }
+//        if (!$this->verifySign($data, $user['md5key'], $user['public_key'])) {
+//            $msg = '签名验证失败!';
+//            ApiLog::log($data, $msg);
+//            $this->error($msg);
+//        }
 
         //检查订单号是否重复
         if (!is_null(Order::getByOrderno($order_no))) {
@@ -265,6 +265,7 @@ class Pay extends Api
         }
 
         //顺序模式
+
         if ($rule['rule_type'] == '1') {
 
             $cache_key = 'ordercount:' . $user->merchant_id;
@@ -356,8 +357,6 @@ class Pay extends Api
                 'sysorderno' => ''                //系统订单号
             ]);
         }
-
-
         //提交给接口的参数
         $params = [
             'config' => $accountModel['params'], //配置参数

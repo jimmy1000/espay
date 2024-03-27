@@ -317,7 +317,6 @@ class Order extends Backend
             //先检查一下安全码对不对
 
             $safeCode = $this->request->param('safeCode');
-
             if(md5(md5($safeCode))!= config('easypay.safeCode')){
 
                 $this->error('安全码输入错误！！');

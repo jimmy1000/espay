@@ -58,9 +58,7 @@ class ApiRule extends Model
 
     public function getApiAccountIdsAttr($value,$row)
     {
-
         if(!$value) return [];
-
 
 
         $field_array = explode(',', $value);
@@ -78,14 +76,12 @@ class ApiRule extends Model
                 'api_account_id'=>$account_id
             ]);
 
-
             if($channelModel['daymoney'] > 0){
                 $today = Carbon::now()->toDateString();
                 if($channelModel['today'] == $today && $channelModel['todaymoney'] >= $channelModel['daymoney'] ){
                     continue;
                 }
             }
-
             $result['id'][] = $account_id;
             $result['weight'][$account_id] = $account_weight;
         }
